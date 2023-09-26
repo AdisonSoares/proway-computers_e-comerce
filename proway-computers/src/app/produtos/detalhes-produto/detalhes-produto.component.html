@@ -1,14 +1,10 @@
 <section class="product__container">
     <div class="product-image__container">
-        <img [src]="produto?.imagem" alt="ilustração monitor">
+        <img [src]="produto?.imagem" alt="ilustração produto">
     </div>
     <div class="product-description__container">
-        <h2 class="product__name">
-            {{produto?.descricao}}
-        </h2>
-        <h3 class="product__price">
-            {{produto?.preco | currency:"BRL"}}
-        </h3>
+        <h2 class="product__name">{{ produto?.descricao }}</h2>
+        <h3 class="product__price">{{ produto?.preco | currency:"BRL" }}</h3>
         <p>
             Estoque disponível:
         </p>
@@ -18,7 +14,7 @@
             unidade(s)
         </label>
         <p class="product__avaiability">
-            {{produto?.quantidadeEstoque}} unidade(s) em estoque
+            {{ produto?.quantidadeEstoque }} unidade(s) em estoque
         </p>
         <button (click)="adicionarAoCarrinho()">Adicionar ao carrinho</button>
     </div>
