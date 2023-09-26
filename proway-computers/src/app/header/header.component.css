@@ -1,4 +1,4 @@
-.main-header {
+.main-header {    
     padding: 10px 0px;
     display: flex;
     flex-flow: row wrap;
@@ -7,20 +7,17 @@
     column-gap: 40px;
 }
 
-.main-header__title {
-    font-size: 80px;
-    letter-spacing: -1.5px;
+.main-header__title {    
+    font-size: 92px;
+    letter-spacing: -1.5px;    
 }
 
 .main-header__title--blue {
     color: var(--blue);
-    color: blue;
-    font-size:60px;
 }
+
 .main-header__title--orange {
     color: var(--orange);
-    color: orange;
-    font-size:60px;
 }
 
 .main-header__menu ul {
@@ -48,9 +45,10 @@
     row-gap: 20px;
     flex: 1;
 }
+
 .badge-carrinho {
     background-color: var(--dark-blue);
-    padding: 5px 10px;
+    padding: 5px 10px;    
     border-radius: 4px;
     color: white;
 }

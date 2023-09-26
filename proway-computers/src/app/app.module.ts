@@ -8,8 +8,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import{ MatSnackBarModule } from "@angular/material/snack-bar";
-import { BarraPesquisaComponent } from './barra-pesquisa/barra-pesquisa.component'
 import { FormsModule } from '@angular/forms';
+import { BarraPesquisaComponent } from './barra-pesquisa/barra-pesquisa.component'
+
 
 @NgModule({
   declarations: [

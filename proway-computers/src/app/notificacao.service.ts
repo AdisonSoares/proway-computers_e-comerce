@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { MatSnackBar } from '@angular/material/snack-bar';
+import {MatSnackBar} from '@angular/material/snack-bar';
 
 @Injectable({
   providedIn: 'root'
@@ -10,11 +10,11 @@ export class NotificacaoService {
     private snackBar: MatSnackBar
   ) { }
 
-  notificar(mensagem: string){
+  notificar(mensagem: string) {
     this.snackBar.open(mensagem, "Ok", {
       duration: 2000,
       verticalPosition: "top",
-      horizontalPosition: "center" 
+      horizontalPosition: "center"
     });
   }
 }
